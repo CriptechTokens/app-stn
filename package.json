@@ -1,0 +1,27 @@
+{
+  "name": "app-stn",
+  "private": true,
+  "engines": {
+    "node": "16.x",
+    "yarn": "1.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "next": "12.0.10",
+    "node-gyp": "^9.3.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "solc": "0.8.11",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10"
+  }
+}
